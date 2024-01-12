@@ -1,1 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTOS</title>
+    <style>
+        @font-face {
+        font-family: 'Orbitron';
+        src: url("../../Orbitron/Orbitron-VariableFont_wght.ttf");
+    }
+    
+    * {
+        font-family: Orbitron;
+    }
 
+    h1.logotipo {
+        color: white;
+        text-shadow: 2px 0px 2px #777;
+    }
+    
+    header.cabecera {
+        border: 2px solid black;
+        height: 10%;
+        padding: 1em;
+        display: flex;
+        background: linear-gradient(to bottom, red, yellow);
+        justify-content: flex-end;
+    }
+    
+    #hijo{
+        color: white;
+        text-shadow: 1px 1px 5px red;
+        border: 2px solid black;
+        background: url(https://22minutoscon.com/wp-content/uploads/2022/12/Y5XO7GG4XZC4PIGYUOIDGPUS7E.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    
+    }
+    
+    footer.derechos {
+        display: flex;
+        justify-content: flex-end;
+        background: linear-gradient(to right, blue, pink);
+        text-shadow: 5px 1px 10px black;
+        border: 3px solid black;
+        color: white;
+    }
+    
+    input:active{
+        background-color: darkgoldenrod;
+        color: chartreuse;
+    }
+    
+
+    nav {
+        border: 2px solid black;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        
+    }
+
+    li {
+        margin: auto;
+        background: linear-gradient(to bottom, yellow, orange);
+        padding: 10px;
+        border: 2px solid  black;
+        border-radius: 40px;
+        font-weight: 800;
+        box-shadow: 4px 3px 5px grey;
+    }
+    
+
+    a {
+        text-decoration: none;
+        color: rgb(188, 16, 16);
+    }
+
+    #cd, #pegatinas, #pins, #camiseta {
+        font-weight: 800;
+        color: blue;
+    }
+
+    div {
+        padding: 2em;
+    }
+    
+    .descubrir {
+        display: flex;
+        margin-right: 400px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 15px;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    
+    header:hover .descubrir{
+        visibility: visible ;
+        transition: opacity 0.5s;
+        opacity: 1;
+        background-image: url(https://lh3.googleusercontent.com/hzdd5VEdCJC9gfcTimpjiZO2KZAo2_dVdU_cS4enWqkfvaHQVAsRI9bbFMbQMsTKD-PXoJbQOSZo-g=w544-h544-l90-rj);
+        background-size: cover;
+        padding: 15px;
+    }
+
+    main {
+        display: flex;
+
+    }
+    
+    article {
+        max-width: 300px;
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        font-style: oblique;
+    }
+
+    main {
+        border-top: 1px solid black;
+    }
+
+    header.headerproducto1 {
+        border: 2px solid black;        
+    }
+
+    h2 {
+        margin: 15px;
+    }
+
+    #cd, #camiseta, #pegatinas, #pins, #sudadera {
+        width: 100%;
+    }  
+    </style>
+</head>
+    <body>
+        <div id="padre">
+            <header class="cabecera">
+                <p class="descubrir">Entra y descubre</p>
+                <img src="https://yt3.googleusercontent.com/wyxn-oGxagXjIRRXL8-iTq0f1qcXfWwhdTYfS3HRRzvnTjkxLYVv6LQENOqDmxQTNLUrotpexQ=s900-c-k-c0x00ffffff-no-rj" width="150">
+            </header> 
+            <nav>
+                <ul class="menu">
+                    <li><a href="./ej2.html">Inicio</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./sobrenosotros.html">Sobre nosotros</a></li>
+                    <li><a href="./ayuda.html">Ayuda</a></li>
+                </ul>
+            </nav>
+                <main>
+                        <article>
+                            <header class="headerproducto1">
+                                <h2><a href="https://quevedo.store/products/cd-donde-quiero-estar">CD "DONDE QUIERO ESTAR" - QUEVEDO</a></h2>
+                            </header>
+
+                            <main class="mainproducto1">
+                                <img src="https://quevedo.store/cdn/shop/products/WhatsAppImage2023-04-17at14.40.18.jpg?v=1682328296&width=713" id="cd">
+                            </main>
+
+                            <footer class="footerproducto1">
+                                <a href="https://quevedo.store/products/cd-donde-quiero-estar" id="cd"></a>
+                            </footer>
+                        </article>          
+                        <article>
+                            <header class="headerproducto1">
+                                <h2><a href="https://quevedo.store/products/camiseta-basica-blanca">CAMISETA BÁSICA BLANCA "DQE"</a></h2>
+                            </header>
+
+                            <main class="mainproducto1">
+                                <img src="https://quevedo.store/cdn/shop/products/19.png?v=1682328248&width=713" id="camiseta">
+                            </main>
+
+                            <footer class="footerproducto1">
+                                <a href="https://quevedo.store/products/cd-donde-quiero-estar" id="cd"></a>
+                            </footer>
+                        </article>
+                        <article>
+                            <header class="headerproducto1">
+                                <h2><a href="https://quevedo.store/products/pins-lpgc-yk">PINS LPGC-YK</a></h2>
+                            </header>
+
+                            <main class="mainproducto1">
+                                <img src="https://quevedo.store/cdn/shop/files/PINS-LPGCYK.png?v=1682591880&width=713" id="pins">
+                            </main>
+
+                            <footer class="footerproducto1">
+                                <a href="https://quevedo.store/products/cd-donde-quiero-estar" id="pins"></a>
+                            </footer>
+                        </article>
+                        <article>
+                            <header class="headerproducto1">
+                                <h2><a href="https://quevedo.store/products/pack-pegatinas-lpgc-yk">PEGATINAS LPGC-YK</a></h2>
+                            </header>
+
+                            <main class="mainproducto1">
+                                <img src="https://quevedo.store/cdn/shop/products/PEGATAS2.png?v=1682344926&width=713" id="pegatinas">
+                            </main>
+
+                            <footer class="footerproducto1">
+                                <a href="https://quevedo.store/products/cd-donde-quiero-estar" id="pegatinas"></a>
+                            </footer>
+                        </article>
+                        <article>
+                            <header class="headerproducto1">
+                                <h2><a href="https://quevedo.store/products/sudadera-berni">SUDADERA LPGC 2023 BLANCA</a></h2>
+                            </header>
+
+                            <main class="mainproducto1">
+                                <img src="https://quevedo.store/cdn/shop/products/17.png?v=1682328339&width=713" id="sudadera">
+                            </main>
+
+                            <footer class="footerproducto1">
+                                <a href="https://quevedo.store/products/cd-donde-quiero-estar" id="sudadera"></a>
+                            </footer>
+                        </article>
+                </main>
+            <footer class="derechos">
+            © 2023 IÑAKI FERRÁNDIZ LÓPEZ. ALL RIGHTS RESERVED.
+            </footer>
+        </div>
+    </body>
+</html>
